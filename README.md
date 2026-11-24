@@ -93,7 +93,7 @@ Source code, database contents, live credentials, the deployed URL and interview
 Built for the University of the Western Cape, module IFS 317 (2026), with the UWC Main Campus Gym as the real client.
 
 ## AI-use note
-The AI reporting feature uses OpenAI models inside the product. This showcase documentation was drafted with Claude (Anthropic) from the team's own course submissions and reviewed by the author.
+The AI reporting feature uses OpenAI models inside the product.
 
 ## Author
 Ivokuhle Uyanda Xali · [Portfolio](https://ivokuhle.github.io/ivokuhlexali-portfolio/) · [LinkedIn](https://linkedin.com/in/ivokuhle-xali) · [GitHub](https://github.com/Ivokuhle)
