@@ -76,8 +76,16 @@ The team ran a documented audit across ten areas (access control, privacy, repor
 Java · Spring Boot · React · PostgreSQL · JWT · BCrypt · OpenAI API · Render · transactional email service
 
 ## My contribution
-<!-- FILL IN BEFORE PUBLISHING: 3-5 bullets, specific and honest. For example: "I designed the ... ", "I implemented ...", "I wrote the tests for ...". Delete this comment. -->
+I was responsible for the project's ethical considerations. I implemented the ethics framework in the team's final submission, which covers:
 
+* **Purpose limitation and data minimisation:** only aggregated data reaches the AI model, with no names, ID numbers, contact details or individual visit histories
+* **Privacy and authorisation:** access rules enforced in the back end by role (JWT, BCrypt, role separation), not just by hiding features in the UI
+* **Accuracy, transparency and accountability:** figures computed by the back end, reporting periods stated, verified facts separated from AI interpretation, no predictions when data is insufficient
+* **Human oversight:** the AI cannot approve access, suspend a member or change a contract or membership record
+* **Security and retention:** API keys kept server-side, and retention and deletion following institutional and legal requirements
+* **Consent and accessibility:** client permission for live demos, fictional or anonymised data for testing, and usability testing of the simplified interface
+
+These principles line up with the guardrails documented in [`docs/greg-guardrails.md`](docs/greg-guardrails.md).
 ## What is not in this repo, and why
 Source code, database contents, live credentials, the deployed URL and interview material are deliberately omitted to protect member privacy and the client. Anything shown here is documentation or fictional.
 
